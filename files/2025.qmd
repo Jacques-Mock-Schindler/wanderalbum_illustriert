@@ -52,6 +52,7 @@ pois = [
     ("Faido", 2702430.57, 1148836.93, "Rundwanderung Faido - Dalpe - Faido"),
     ("Isone", 2717606.83, 1106570.29, "Isone - Tesserete"),
     ("BLS Südrampe", 2629801.57, 1129597.33, "Hohtenn - Eggerberg"),
+    ("Zürich", 2684358.60, 1248409.83, "Zürich - Stadtwanderung"),
 ]
 
 # POIs auf der Karte anzeigen
