@@ -54,6 +54,7 @@ pois = [
     ("BLS Südrampe", 2629801.57, 1129597.33, "Hohtenn - Eggerberg"),
     ("Zürich", 2684358.60, 1248409.83, "Zürich - Stadtwanderung"),
     ("Hauterive", 2576744.78, 1181188.78, "Hauterive - Fribourg"),
+    ("Wäggital", 2708385.71, 1217281.10, "Wäggital - Sihlsee"),
 ]
 
 # POIs auf der Karte anzeigen
