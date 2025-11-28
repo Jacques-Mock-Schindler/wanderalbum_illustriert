@@ -7,3 +7,23 @@
 *.pyd
 .DS_Store
 .env
+*.exe
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+*.heic
+
+# PDFs
+*.pdf
+
+# Directories
+docs/
+.vscode/
+node_modules/
