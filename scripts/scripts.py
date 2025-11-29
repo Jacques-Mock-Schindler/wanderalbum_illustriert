@@ -18,6 +18,7 @@ import sys
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+import base64
 
 
 def create_map(middle, path, title, width=800, height=600, gpx_url=None):
@@ -259,3 +260,21 @@ def generate_qr_code_for_url(url: str):
 
     except Exception as e:
         print(f"❌ Ein Fehler ist aufgetreten: {e}")
+
+
+
+def create_swisstopo_link(gpx_url):
+    """
+    Erstellt einen swisstopo-App Link basierend auf einer GPX-URL.
+    """
+    # 1. URL in Bytes umwandeln (Base64 benötigt Bytes, keine Strings)
+    url_bytes = gpx_url.encode('utf-8')
+    
+    # 2. Base64 codieren
+    encoded_bytes = base64.b64encode(url_bytes)
+    
+    # 3. Bytes zurück in String wandeln, um sie an den Link anzuhängen
+    encoded_string = encoded_bytes.decode('utf-8')
+    
+    # 4. Fertigen Link zurückgeben
+    return f"https://swisstopo.app/u/{encoded_string}"
