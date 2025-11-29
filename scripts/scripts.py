@@ -160,53 +160,56 @@ def profile(path):
         with open(gpx_path, 'r') as gpx_file:
             gpx = gpxpy.parse(gpx_file)
 
-    distances = []
-    elevations = []
-    total_distance = 0
+        distances = []
+        elevations = []
+        total_distance = 0
 
-    for track in gpx.tracks:
-        for segment in track.segments:
-            for i, point in enumerate(segment.points):
-                if i == 0:
-                    distances.append(0)
-                else:
-                    prev_point = segment.points[i - 1]
-                    distance = point.distance_2d(prev_point)
-                    total_distance += distance
-                    distances.append(total_distance / 1000)
-                elevations.append(point.elevation)
+        for track in gpx.tracks:
+            for segment in track.segments:
+                for i, point in enumerate(segment.points):
+                    if i == 0:
+                        distances.append(0)
+                    else:
+                        prev_point = segment.points[i - 1]
+                        distance = point.distance_2d(prev_point)
+                        total_distance += distance
+                        distances.append(total_distance / 1000)
+                    elevations.append(point.elevation)
 
-    plt.figure(figsize=(12, 4))
-    plt.plot(distances, elevations, linewidth=2, color='#d62728')
-    plt.fill_between(distances, elevations, alpha=0.3, color='#d62728')
+        plt.figure(figsize=(12, 4))
+        plt.plot(distances, elevations, linewidth=2, color='#d62728')
+        plt.fill_between(distances, elevations, alpha=0.3, color='#d62728')
 
-    plt.xlabel('Distanz (km)', fontsize=12)
-    plt.ylabel('Höhe (m ü. M.)', fontsize=12)
-    plt.title('Höhenprofil', fontsize=14, fontweight='bold')
-    plt.grid(True, alpha=0.3)
+        plt.xlabel('Distanz (km)', fontsize=12)
+        plt.ylabel('Höhe (m ü. M.)', fontsize=12)
+        plt.title('Höhenprofil', fontsize=14, fontweight='bold')
+        plt.grid(True, alpha=0.3)
 
-    min_elevation = min(elevations)
-    max_elevation = max(elevations)
-    total_ascent = sum(elevations[i] - elevations[i - 1]
-                       for i in range(1, len(elevations))
-                       if elevations[i] > elevations[i - 1])
-    total_descent = sum(elevations[i - 1] - elevations[i]
-                        for i in range(1, len(elevations))
-                        if elevations[i] < elevations[i - 1])
+        min_elevation = min(elevations)
+        max_elevation = max(elevations)
+        total_ascent = sum(elevations[i] - elevations[i - 1]
+                           for i in range(1, len(elevations))
+                           if elevations[i] > elevations[i - 1])
+        total_descent = sum(elevations[i - 1] - elevations[i]
+                            for i in range(1, len(elevations))
+                            if elevations[i] < elevations[i - 1])
 
-    plt.ylim(min_elevation - 200, max_elevation + 50)
+        plt.ylim(min_elevation - 200, max_elevation + 50)
 
-    stats_text = (f'Distanz: {total_distance / 1000:.2f} km | '
-                  f'Min: {min_elevation:.0f} m | Max: {max_elevation:.0f} m | '
-                  f'↑ {total_ascent:.0f} m | ↓ {total_descent:.0f} m')
-    plt.text(0.5, 0.02, stats_text, transform=plt.gca().transAxes,
-             ha='center', fontsize=10,
-             bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+        stats_text = (f'Distanz: {total_distance / 1000:.2f} km | '
+                      f'Min: {min_elevation:.0f} m | Max: {max_elevation:.0f} m | '
+                      f'↑ {total_ascent:.0f} m | ↓ {total_descent:.0f} m')
+        plt.text(0.5, 0.02, stats_text, transform=plt.gca().transAxes,
+                 ha='center', fontsize=10,
+                 bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
 
-    plt.tight_layout()
-    plt.savefig('elevation_profile.png', dpi=150, bbox_inches='tight')
-    plt.show()
-    plt.close()
+        plt.tight_layout()
+        plt.savefig('elevation_profile.png', dpi=150, bbox_inches='tight')
+        plt.show()
+        plt.close()
+    else:
+        print(f"Error: GPX file not found at {gpx_path}")
+        return
 
 
 def create_swisstopo_url(center, gpx_url):
