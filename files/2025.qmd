@@ -56,6 +56,7 @@ pois = [
     ("Zürich", 2684358.60, 1248409.83, "Zürich - Stadtwanderung"),
     ("Hauterive", 2576744.78, 1181188.78, "Hauterive - Fribourg"),
     ("Wäggital", 2708385.71, 1217281.10, "Wäggital - Sihlsee"),
+    ("Leglerhütte", 2726090.73, 1200179.13, "Rundwanduerng Mettmen - Leglerhütte - Mettmen"),
 ]
 
 # POIs auf der Karte anzeigen
