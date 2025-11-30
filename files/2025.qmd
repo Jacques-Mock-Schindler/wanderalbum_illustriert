@@ -58,6 +58,7 @@ pois = [
     ("Wäggital", 2708385.71, 1217281.10, "Wäggital - Sihlsee"),
     ("Leglerhütte", 2726090.73, 1200179.13, "Rundwanduerng Mettmen - Leglerhütte - Mettmen"),
     ("Höhronen", 2694552.38, 1222410.81, "Biberbrugg - Höhronen - Rothenturm"),
+    ("Erdmannlistein", 2666993.31, 1243819.92, "Erdmannlistein - Waltenschwil - Bremgarten"),
 ]
 
 # POIs auf der Karte anzeigen
