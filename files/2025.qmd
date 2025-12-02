@@ -59,7 +59,7 @@ pois = [
     ("Leglerhütte", 2726090.73, 1200179.13, "Rundwanduerng Mettmen - Leglerhütte - Mettmen"),
     ("Höhronen", 2694552.38, 1222410.81, "Biberbrugg - Höhronen - Rothenturm"),
     ("Erdmannlistein", 2666993.31, 1243819.92, "Erdmannlistein - Waltenschwil - Bremgarten"),
-    ("Furna", 2666993.31, 1243819.92, "Furner Rundweg"),
+    ("Furna", 2768996.83, 1199150.10, "Furner Rundweg"),
 ]
 
 # POIs auf der Karte anzeigen
