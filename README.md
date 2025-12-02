@@ -115,7 +115,7 @@ Synchronisiert den lokalen `_site` Ordner mit dem Cloudflare R2 Bucket.
 <!-- end list -->
 
 ```powershell
-rclone sync _site r2-bilder:wanderalbum-web --progress
+rclone sync docs r2-bilder:wanderalbum-web --progress
 ```
 
 > **Hinweis:** Falls `rclone` nicht im PATH ist, nutze `.\rclone.exe` statt `rclone`.
