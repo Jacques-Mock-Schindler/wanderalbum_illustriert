@@ -63,6 +63,7 @@ pois = [
     ("Vilan", 2765611.00, 1208283.13, "Malanser Älpli - Vilan - Seewis"),
     ("Capriasca", 2717665.20, 1100030.67, "Tesserete - Lugano"),
     ("Arnisee", 2690391.09, 1179899.16, "Rundwanderung Arnisee"),
+    ("Disentis", 2706323.05, 1170674.81, "Sedrun - Disentis"),
 ]
 
 # POIs auf der Karte anzeigen
