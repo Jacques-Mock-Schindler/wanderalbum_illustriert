@@ -7,6 +7,12 @@ listing:
     - "2025/**/*.md"
     - "2025/**/*.qmd"
   type: table
+  fields: [author, canton, date, title]
+  field-display-names:
+    author: "Autor"
+    canton: "Kanton"
+    date: "Datum"
+    title: "Titel"
   sort: date
 ---
 
