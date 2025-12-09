@@ -65,6 +65,7 @@ pois = [
     ("Arnisee", 2690391.09, 1179899.16, "Rundwanderung Arnisee"),
     ("Disentis", 2706323.05, 1170674.81, "Sedrun - Disentis"),
     ("Fläscherberg", 2758107.18, 1211121.43, "Fläsch - Fläscherberg - Maienfeld"),
+    ("Ponte Tibetano", 2719268.64, 1116620.76, "Ponte Tibetano Sementina"),
 ]
 
 # POIs auf der Karte anzeigen
