@@ -73,6 +73,7 @@ pois = [
     ("Disentis", 2706323.05, 1170674.81, "Sedrun - Disentis"),
     ("Fläscherberg", 2758107.18, 1211121.43, "Fläsch - Fläscherberg - Maienfeld"),
     ("Ponte Tibetano", 2719268.64, 1116620.76, "Ponte Tibetano Sementina"),
+    ("Valle Morobbia", 2723705.15, 1113995.07, "Vellano - Giubiasco"),
 ]
 
 # POIs auf der Karte anzeigen
