@@ -1,5 +1,7 @@
+title: "Zuoz - Bever"
 author: "Jacques Mock Schindler"
 date: 2025-06-17
+canton: "GR"
 date-format: DD.MM.YYYY
 execute: 
   echo: false

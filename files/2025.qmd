@@ -7,13 +7,14 @@ listing:
     - "2025/**/*.md"
     - "2025/**/*.qmd"
   type: table
-  fields: [author, canton, date, title]
+  fields: [date, title, canton, author]
   field-display-names:
     author: "Autor"
     canton: "Kanton"
     date: "Datum"
     title: "Titel"
   sort: date
+  sort-ui: [date, title, canton, author]
 ---
 
 Zwischen den Frühlings- und Sommerferien 2025 konnte ich einen Dienstaltersurlaub beziehen. In dieser Zeit haben wir etliche Wanderungen in der ganzen Schweiz gemacht. Dies hier ist ein Versuch, diese Wanderungen zu dokumentieren.
