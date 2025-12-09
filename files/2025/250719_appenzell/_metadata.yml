@@ -1,5 +1,6 @@
 author: "Jacques Mock Schindler"
 date: 2025-07-19
+canton: "AI"
 date-format: DD.MM.YYYY
 execute: 
   echo: false
