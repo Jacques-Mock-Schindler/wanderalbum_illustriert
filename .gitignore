@@ -27,3 +27,5 @@
 docs/
 .vscode/
 node_modules/
+
+**/*.quarto_ipynb
