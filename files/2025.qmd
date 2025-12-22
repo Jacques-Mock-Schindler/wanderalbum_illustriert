@@ -53,6 +53,7 @@ pois = [
     ("Schwarzsee", 2582706.22, 1166665.39, "Schwarzsee - Charmey"),
     ("Lac de Gruyère", 2575233.65, 1171609.91, "Wanderung am Ostufer des Lac de Gruyère"),
     ("Romont", 2561818.33, 1170526.23, "Sentier du Virtrai"),
+    ("Vallée du Motélon", 2577845.82, 1159138.90, "Dent du Chamois"),
     ("Oberengadin", 2790156.34,1161326.78, "Kunstwanderung Hotel Castel"),
     ("Maderanertal", 2699288.13, 1181124.54, "Bristen - Golzeren"),
     ("Haustein", 2626440.19, 1246339.08, "Fortifikation Haustein"),
