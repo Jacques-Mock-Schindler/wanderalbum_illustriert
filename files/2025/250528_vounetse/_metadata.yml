@@ -1,6 +1,6 @@
 author: "Jacques Mock Schindler"
-date: 2025-05-27
-canton: "VD"
+date: 2025-05-28
+canton: "FR"
 date-format: DD.MM.YYYY
 execute: 
   echo: false
