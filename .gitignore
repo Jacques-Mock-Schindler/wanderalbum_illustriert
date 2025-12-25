@@ -19,6 +19,7 @@
 *.svg
 *.webp
 *.heic
+*.mp4
 
 # PDFs
 *.pdf
