@@ -55,6 +55,7 @@ pois = [
     ("Romont", 2561818.33, 1170526.23, "Sentier du Virtrai"),
     ("Vallée du Motélon", 2577845.82, 1159138.90, "Dent du Chamois"),
     ("Narcisses", 2559474.93, 1149833.73, "Châtel-St-Denis - Fayaux"),
+    ("Vounetse", 2580860.94, 1163511.39, "Rundwanderung Vounetse"),
     ("Oberengadin", 2790156.34,1161326.78, "Kunstwanderung Hotel Castel"),
     ("Maderanertal", 2699288.13, 1181124.54, "Bristen - Golzeren"),
     ("Haustein", 2626440.19, 1246339.08, "Fortifikation Haustein"),
