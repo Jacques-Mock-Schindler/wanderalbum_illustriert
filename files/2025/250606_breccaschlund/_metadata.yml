@@ -1,0 +1,6 @@
+author: "Jacques Mock Schindler"
+date: 2025-06-06
+canton: "FR"
+date-format: DD.MM.YYYY
+execute: 
+  echo: false
