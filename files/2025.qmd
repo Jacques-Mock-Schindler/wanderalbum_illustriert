@@ -60,6 +60,7 @@ pois = [
     ("Chalet", 2579770.34, 1162089.14, "Wanderung um den Vanil de la Monse"),
     ("Gibloux", 2569951.68, 1170421.30, "Wanderung über den Gibloux"),
     ("Le Moléson", 2564547.52, 1154262.76, "Wanderung vom Moléson nach Châtel-St-Denis"),
+    ("Breccaschlund", 2588156.72, 1165240.42, "Jaun - Euschelspass - Schwarzsee"),
     ("Oberengadin", 2790156.34,1161326.78, "Kunstwanderung Hotel Castel"),
     ("Maderanertal", 2699288.13, 1181124.54, "Bristen - Golzeren"),
     ("Haustein", 2626440.19, 1246339.08, "Fortifikation Haustein"),
