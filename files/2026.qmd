@@ -1,0 +1,70 @@
+---
+title: "Wanderungen 2026"
+date-format: DD.MM.YYYY
+listing:
+  contents: 
+    - "2026/**/*.ipynb"
+    - "2026/**/*.md"
+    - "2026/**/*.qmd"
+  type: table
+  fields: [date, title, canton, author]
+  field-display-names:
+    author: "Autor"
+    canton: "Kanton"
+    date: "Datum"
+    title: "Titel"
+  sort: date
+  sort-ui: [date, title, canton, author]
+---
+
+Dies ist die Fortsetzung der Dokumentation unserer Wanderungen 2026.
+
+```{python}
+#| echo: false
+import folium
+from pyproj import Transformer
+
+# Funktion zur Umwandlung von Swissgrid (LV95) zu WGS84
+def swissgrid_to_wgs84(east, north):
+    """
+    Wandelt Swissgrid LV95 Koordinaten (EPSG:2056) in WGS84 (EPSG:4326) um.
+    
+    Parameters:
+    east: Easting (X-Koordinate in Meter)
+    north: Northing (Y-Koordinate in Meter)
+    
+    Returns:
+    (latitude, longitude) Tuple
+    """
+    transformer = Transformer.from_crs("EPSG:2056", "EPSG:4326", always_xy=True)
+    lon, lat = transformer.transform(east, north)
+    return lat, lon
+
+# Karte der Schweiz erstellen
+schweiz_karte = folium.Map(
+    location=[46.8182, 8.2275],
+    zoom_start=8,
+    tiles='OpenStreetMap'
+)
+
+# Beispiel POIs (Swissgrid LV95 Koordinaten)
+# Format: (Name, East, North, Beschreibung)
+pois = [
+    ("Schwarzsee", 2582706.22, 1166665.39, "Schwarzsee - Charmey"),
+]
+
+# POIs auf der Karte anzeigen
+for name, east, north, beschreibung in pois:
+    lat, lon = swissgrid_to_wgs84(east, north)
+    folium.Marker(
+        location=[lat, lon],
+        popup=f"<b>{name}</b><br>{beschreibung}",
+        tooltip=name,
+        icon=folium.Icon(color='red', icon='info-sign')
+    ).add_to(schweiz_karte)
+
+schweiz_karte
+```
+
+<div style="margin-bottom: 5mm;"></div>
+
