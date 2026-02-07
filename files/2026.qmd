@@ -51,6 +51,7 @@ schweiz_karte = folium.Map(
 # Format: (Name, East, North, Beschreibung)
 pois = [
     ("Bachtel", 2710436.12, 1239534.97, "Gibswil - Bachtel - Wald"),
+    ("Tenero", 2706959.41, 1115758.07, "Tenero - Contra - Orselina"),
 ]
 
 # POIs auf der Karte anzeigen
