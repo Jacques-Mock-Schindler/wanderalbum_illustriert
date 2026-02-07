@@ -8,8 +8,10 @@ website:
     right:
       - text: Home
         href: index.qmd
-      - text: Wanderungen
+      - text: "2025"
         href: files/2025.qmd
+      - text: "2026"
+        href: files/2026.qmd
         
 
 format:
