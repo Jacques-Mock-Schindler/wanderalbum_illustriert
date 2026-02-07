@@ -50,7 +50,7 @@ schweiz_karte = folium.Map(
 # Beispiel POIs (Swissgrid LV95 Koordinaten)
 # Format: (Name, East, North, Beschreibung)
 pois = [
-    ("Schwarzsee", 2582706.22, 1166665.39, "Schwarzsee - Charmey"),
+    ("Bachtel", 2710436.12, 1239534.97, "Gibswil - Bachtel - Wald"),
 ]
 
 # POIs auf der Karte anzeigen
