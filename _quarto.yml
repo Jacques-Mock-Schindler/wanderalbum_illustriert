@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  python: .venv/bin/python
+
 website:
   title: "wanderalbum"
   navbar:
