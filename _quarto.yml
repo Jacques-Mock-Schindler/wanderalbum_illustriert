@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  python: .venv/bin/python
+
 website:
   title: "wanderalbum"
   navbar:
@@ -26,10 +29,11 @@ format:
     include-in-header:
       text: |
         \usepackage[labelformat=empty]{caption}
-    pdf-engine: xelatex
+    pdf-engine: lualatex
     pdf-engine-opts:
       - -shell-escape
-    mainfont: Arial
+    mainfont: "TeX Gyre Heros"
+    sansfont: "TeX Gyre Heros"
     fontsize: 11pt
     documentclass: scrartcl
     classoption: a4paper

@@ -1,6 +1,7 @@
 ---
 title: "Wanderungen 2026"
 date-format: DD.MM.YYYY
+jupyter: python3
 listing:
   contents: 
     - "2026/**/*.ipynb"
@@ -52,6 +53,7 @@ schweiz_karte = folium.Map(
 pois = [
     ("Bachtel", 2710436.12, 1239534.97, "Gibswil - Bachtel - Wald"),
     ("Tenero", 2706959.41, 1115758.07, "Tenero - Contra - Orselina"),
+    ("Montagnola", 2715120.89, 1092013.28, "Carona - Montagnola"),
 ]
 
 # POIs auf der Karte anzeigen
