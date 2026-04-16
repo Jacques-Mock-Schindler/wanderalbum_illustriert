@@ -47,7 +47,7 @@ Stelle sicher, dass der Remote `r2-bilder` korrekt eingerichtet ist:
 
 ```bash
 rclone listremotes
-# Sollte "r2-bilder:" ausgeben
+# Sollte "cloudflare-r2:" ausgeben
 
 ```
 
