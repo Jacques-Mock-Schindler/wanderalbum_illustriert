@@ -55,6 +55,7 @@ pois = [
     ("Tenero", 2706959.41, 1115758.07, "Tenero - Contra - Orselina"),
     ("Montagnola", 2715120.89, 1092013.28, "Carona - Montagnola"),
     ("Hemishofen", 2697332.21, 1283058.47, "Hemishofen - Langwiesen"),
+    ("Aragno", 2719613.42, 1091862.07, "Marroggia - Cantine di Gandria"),
 ]
 
 # POIs auf der Karte anzeigen
