@@ -57,6 +57,7 @@ pois = [
     ("Hemishofen", 2697332.21, 1283058.47, "Hemishofen - Langwiesen"),
     ("Aragno", 2719613.42, 1091862.07, "Marroggia - Cantine di Gandria"),
     ("Domleschger Burgenweg", 2753290.47, 1177710.86, "Rothenbrunnen - Thusis"),
+    ("Ile d'Ogoz", 2573071.78, 1170736.41, "Ile d'Ogoz"),
 ]
 
 # POIs auf der Karte anzeigen
