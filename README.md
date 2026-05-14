@@ -91,7 +91,7 @@ quarto render
 Lade die neue Version hoch. Hier nutzen wir `sync`, um die Cloud auf den exakten Stand deines Rechners zu bringen (löscht alte Dateien in der Cloud, die du lokal entfernt hast).
 
 ```bash
-rclone sync docs r2-bilder:wanderalbum-web --progress
+rclone sync docs cloudflare-r2:wanderalbum-web --progress
 
 ```
 
