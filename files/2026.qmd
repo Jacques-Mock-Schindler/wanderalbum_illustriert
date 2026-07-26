@@ -59,6 +59,7 @@ pois = [
     ("Domleschger Burgenweg", 2753290.47, 1177710.86, "Rothenbrunnen - Thusis"),
     ("Ile d'Ogoz", 2573071.78, 1170736.41, "Ile d'Ogoz"),
     ("Hegeloch", 2627453.09, 1195306.65, "Eggiwil - Hegeloch - Langnau i.E."),
+    ("Schauenberg", 2705564.11, 1258484.48, "Kollbrunn - Tüfelschile - Schauenberg - Elgg"),
 ]
 
 # POIs auf der Karte anzeigen
