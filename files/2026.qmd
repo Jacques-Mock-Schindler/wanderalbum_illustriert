@@ -61,7 +61,7 @@ pois = [
     ("Hegeloch", 2627453.09, 1195306.65, "Eggiwil - Hegeloch - Langnau i.E."),
     ("Schauenberg", 2705564.11, 1258484.48, "Kollbrunn - Tüfelschile - Schauenberg - Elgg"),
     ("Gotthard", 2684830.81, 1158107.05, "Fünfseenwanderung Gotthardpass"),
-    ("Hohenrätien", 2754140.76, 1169814.43, "Thusis - Hohenrätien - Via Mala - Zillis"),
+    ("Hohenrätien", 2754140.76, 1169814.43, "Thusis - Hohenrätien - Viamala - Zillis"),
 ]
 
 # POIs auf der Karte anzeigen
