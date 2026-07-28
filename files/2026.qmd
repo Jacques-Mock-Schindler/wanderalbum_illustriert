@@ -62,6 +62,7 @@ pois = [
     ("Schauenberg", 2705564.11, 1258484.48, "Kollbrunn - Tüfelschile - Schauenberg - Elgg"),
     ("Gotthard", 2684830.81, 1158107.05, "Fünfseenwanderung Gotthardpass"),
     ("Hohenrätien", 2754140.76, 1169814.43, "Thusis - Hohenrätien - Viamala - Zillis"),
+    ("Lago Tremorgio", 2694660.08, 1150870.84, "Pesciüm - Lago Tremorgio"),
 ]
 
 # POIs auf der Karte anzeigen
