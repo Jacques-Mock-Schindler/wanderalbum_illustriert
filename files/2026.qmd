@@ -64,6 +64,7 @@ pois = [
     ("Hohenrätien", 2754140.76, 1169814.43, "Thusis - Hohenrätien - Viamala - Zillis"),
     ("Lago Tremorgio", 2694660.08, 1150870.84, "Pesciüm - Lago Tremorgio"),
     ("Monte Tamaro", 2710002.39, 1102423.97, "La Traversata: Monte Lema - Monte Tamaro"),
+    ("Val Bever", 2785994.27, 1157998.39, "Bever - Spinas - Margunin - Samedan"),
 ]
 
 # POIs auf der Karte anzeigen
