@@ -65,6 +65,7 @@ pois = [
     ("Lago Tremorgio", 2694660.08, 1150870.84, "Pesciüm - Lago Tremorgio"),
     ("Monte Tamaro", 2710002.39, 1102423.97, "La Traversata: Monte Lema - Monte Tamaro"),
     ("Val Bever", 2785994.27, 1157998.39, "Bever - Spinas - Margunin - Samedan"),
+    ("Churfirsten", 2742565.30, 1225803.94, "Schweiz Mobil 950: Churfirstenweg"),
 ]
 
 # POIs auf der Karte anzeigen
