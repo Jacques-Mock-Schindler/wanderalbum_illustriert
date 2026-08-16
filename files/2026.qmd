@@ -67,6 +67,7 @@ pois = [
     ("Val Bever", 2785994.27, 1157998.39, "Bever - Spinas - Margunin - Samedan"),
     ("Churfirsten", 2742565.30, 1225803.94, "Schweiz Mobil 950: Churfirstenweg"),
     ("Windenpass", 2739590.86, 1231116.90, "Über den Windenpass zum Gräppelensee"),
+    ("Splügen", 2745337.58, 1156034.41, "Schweiz Mobil 759: Surettaseen-Weg"),
 ]
 
 # POIs auf der Karte anzeigen
