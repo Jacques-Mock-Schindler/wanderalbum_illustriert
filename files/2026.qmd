@@ -66,6 +66,7 @@ pois = [
     ("Monte Tamaro", 2710002.39, 1102423.97, "La Traversata: Monte Lema - Monte Tamaro"),
     ("Val Bever", 2785994.27, 1157998.39, "Bever - Spinas - Margunin - Samedan"),
     ("Churfirsten", 2742565.30, 1225803.94, "Schweiz Mobil 950: Churfirstenweg"),
+    ("Windenpass", 2739590.86, 1231116.90, "Über den Windenpass zum Gräppelensee"),
 ]
 
 # POIs auf der Karte anzeigen
