@@ -70,6 +70,7 @@ pois = [
     ("Splügen", 2745337.58, 1156034.41, "Schweiz Mobil 759: Surettaseen-Weg"),
     ("Kerenzerberg", 2727684.62, 1219556.16, "Schweiz Mobil 850: Kerenzerberg Römerweg"),
     ("Gadastatt", 2732483.21, 1164454.47, "Vals - Gadastatt - Vals"),
+    ("Drei Seen", 2731888.44, 1160903.25, "Zervreila - Guraletsch - Ampervreila - Selvasee - Vals"),
     ("Dreibündenstein", 2756264.81, 1185190.68, "Brambrüesch - Dreibündenstein - Feldis"),
 ]
 
