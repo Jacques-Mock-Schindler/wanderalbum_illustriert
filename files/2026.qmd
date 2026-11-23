@@ -73,6 +73,7 @@ pois = [
     ("Drei Seen", 2731888.44, 1160903.25, "Zervreila - Guraletsch - Ampervreila - Selvasee - Vals"),
     ("Zervreila", 2731411.59, 1162342.87, "Alter Zervreilaweg: Vals - Gadastatt"),
     ("Dreibündenstein", 2756264.81, 1185190.68, "Brambrüesch - Dreibündenstein - Feldis"),
+    ("Igis", 2762418.54, 1197235.90, "Igis - Chur"),
 ]
 
 # POIs auf der Karte anzeigen
