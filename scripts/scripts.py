@@ -21,7 +21,7 @@ from selenium.webdriver.chrome.options import Options
 import base64
 
 
-def create_map(middle, path, title, width=800, height=600, gpx_url=None):
+def create_map(middle, path, title, width=800, height=600, gpx_url=None, padding=None):
     """
     Create an interactive Folium map with GPX track overlay and save as PNG.
 
@@ -38,6 +38,8 @@ def create_map(middle, path, title, width=800, height=600, gpx_url=None):
         height (int, optional): Height of the output PNG in pixels. Defaults to 600.
         gpx_url (str, optional): URL to the GPX file (e.g., GitHub raw URL).
             If provided, prints the corresponding Swisstopo URL. Defaults to None.
+        padding (tuple, optional): Margin in pixels (x, y) between the track
+            and the map edge when fitting the map to the track. Defaults to None.
 
     Returns:
         folium.Map: The created Folium map object.
@@ -108,7 +110,10 @@ def create_map(middle, path, title, width=800, height=600, gpx_url=None):
             }
         ).add_to(m)
 
-        m.fit_bounds(geojson_layer.get_bounds())
+        if padding:
+            m.fit_bounds(geojson_layer.get_bounds(), padding=padding)
+        else:
+            m.fit_bounds(geojson_layer.get_bounds())
 
     folium.LayerControl().add_to(m)
 
